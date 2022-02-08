@@ -1,0 +1,20 @@
+{
+  "name": "diary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kutyukov/diaryMash/"
+  },
+  "author": "kutyukov",
+  "license": "ISC"
+}
