@@ -1,6 +1,6 @@
 require('dotenv').config()
 
-const { Diary } = require('./dnevnik_mos/index.js')
+const { Diary } = require('diary-mash')
 
 const diary = new Diary({
 	auth_token: process.env.auth_token,
