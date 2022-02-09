@@ -53,11 +53,7 @@ async function Shedule_and_Lesson() {
 	var shedule = await diary.getShedule();
 
 	await shedule.activities.map(async (activitie) => {
-		if(
-			activitie.type === 'LESSON' 
-			&& 
-			activitie.info !== null
-		) {
+		if(activitie.type === 'LESSON') {
 			const lesson = await diary.getLesson(activitie.lesson.schedule_item_id);
 			console.log(lesson)
 			
