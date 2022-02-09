@@ -58,10 +58,9 @@ async function Shedule_and_Lesson() {
 			&& 
 			activitie.info !== null
 		) {
-			if(activitie.lesson.homework_count.total_count > 0) {
-				const lesson = await diary.getLesson(activitie.lesson.schedule_item_id);
-				console.log(lesson)
-			}
+			const lesson = await diary.getLesson(activitie.lesson.schedule_item_id);
+			console.log(lesson)
+			
 		}
 	})
 }
